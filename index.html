@@ -1,103 +1,395 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Luwyze Jamon | Portfolio</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Luwyze Jamon | Portfolio</title>
 
-<body>
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css">
 
-<header>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    </head>
 
-<!-- Hero Section -->
-<section class="hero" id="home">
-    <div class="hero-content">
-        <img src="profile.jpg" alt="Luwyze Jamon" class="profile-pic">
-        <h1>Luwyze Jamon</h1>
-        <p>Bachelor of Science in Information Technology | Video Editing & Hardware Specialist</p>
+    <body>
+
+        <!-- HEADER -->
+        <header class="header">
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#trainings">Trainings</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button id="theme-toggle" class="theme-btn">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+    </header>
+        </header>
+
+        <!-- HOME -->
+        <section class="home" id="home">
+
+            <div class="home-content">
+
+                <h3>Hello, I'm</h3>
+
+                <h1>Luwyze Jamon</h1>
+
+                <h3>
+                    And I'm a
+                    <span class="multiple-text"></span>
+                </h3>
+
+                <p>
+                    BSIT student with practical experience in technical support,
+                    documentation, hardware servicing, and software deployment
+                    through On-the-Job Training in the ICT Department of Carlos
+                    Hilado Memorial State University.
+                </p>
+
+            <div class="social-media">
+
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/bok2123"
+        target="_blank"
+        aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/pampam221144/"
+        target="_blank"
+        aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <!-- TikTok -->
+        <a href="https://www.tiktok.com/@luwyze?lang=en"
+        target="_blank"
+        aria-label="TikTok">
+            <i class="fa-brands fa-tiktok"></i>
+        </a>
+
+        <!-- Email -->
+        <a href="mailto:Jamonbok3@gmail.com"
+        aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+
     </div>
+
+    <!-- Download Resume Button -->
+    <a href="./resume.pdf"
+    class="btn"
+    download="Luwyze_Jamon_Resume.pdf">
+        <i class="fa-solid fa-download"></i>
+        Download Resume
+    </a>
+
+    <a href="#contact" class="btn btn-secondary">
+        Contact Me
+    </a>
+            </div>
+
+        <div class="home-img">
+        <a href="profile.png" target="_blank">
+            <img src="profile.png"
+                alt="Luwyze Jamon Graduation Photo">
+        </a>
+
+    </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about" id="about">
+
+            <div class="about-content">
+
+                <h2 class="heading">
+                    About <span>Me</span>
+                </h2>
+
+                <p>
+                    I am a Bachelor of Science in Information Technology student
+                    from STI West Negros University with hands-on experience in
+                    technical support, computer maintenance, documentation,
+                    hardware troubleshooting, and software installation.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- EDUCATION -->
+        <section class="education" id="education">
+
+            <h2 class="heading">
+                Educational <span>Background</span>
+            </h2>
+
+            <div class="education-container">
+
+                <div class="education-box">
+
+                    <i class="fa-solid fa-graduation-cap"></i>
+
+                    <h3>
+                        Bachelor of Science in Information Technology
+                    </h3>
+
+                    <p>STI West Negros University</p>
+
+                    <span>2022 – 2026</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- EXPERIENCE -->
+        <section class="experience" id="experience">
+
+            <h2 class="heading">
+                Work <span>Experience</span>
+            </h2>
+
+            <div class="experience-container">
+
+                <div class="experience-box">
+
+                    <h3>OJT – ICT Department</h3>
+
+                    <h4>CHMSU Alijis</h4>
+
+                    <span>February 2026 – Present</span>
+
+                    <ul>
+                        <li>Windows installation and system cloning.</li>
+                        <li>Technical support and troubleshooting.</li>
+                        <li>Printer setup and maintenance.</li>
+                        <li>Projector setup assistance.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SKILLS -->
+<section class="skills" id="skills">
+
+    <h2 class="heading">
+        My <span>Skills</span>
+    </h2>
+
+    <div class="skills-container">
+
+        <div class="skill-box">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <h3>Basic Hardware Troubleshooting</h3>
+            <p>Diagnose and resolve common computer hardware issues.</p>
+        </div>
+
+        <div class="skill-box">
+            <i class="fa-brands fa-windows"></i>
+            <h3>Windows Installation & Cloning</h3>
+            <p>Install operating systems and clone drives efficiently.</p>
+        </div>
+
+        <div class="skill-box">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Software Installation and Configuration</h3>
+            <p>Set up and configure software applications properly.</p>
+        </div>
+
+        <div class="skill-box">
+            <i class="fa-solid fa-headset"></i>
+            <h3>Basic Technical Support</h3>
+            <p>Provide assistance and troubleshoot user concerns.</p>
+        </div>
+
+        <div class="skill-box">
+            <i class="fa-solid fa-computer"></i>
+            <h3>Computer Maintenance</h3>
+            <p>Perform preventive maintenance and optimization.</p>
+        </div>
+
+        <div class="skill-box">
+            <i class="fa-solid fa-folder-open"></i>
+            <h3>Documentation and Record Management</h3>
+            <p>Organize technical records and maintain documentation.</p>
+        </div>
+
+        <div class="skill-box">
+            <i class="fa-solid fa-video"></i>
+            <h3>Video Editing</h3>
+            <p>Create and edit videos using professional editing software.</p>
+        </div>
+
+    </div>
+
 </section>
 
-<!-- Projects -->
-<section id="projects" class="projects-section">
-    <h2>Projects</h2>
+       <!-- PROJECTS -->
+<section class="projects" id="projects">
+
+    <h2 class="heading">
+        My <span>Projects</span>
+    </h2>
+
     <div class="projects-container">
-        <div class="project-card">
-            <img src="project1.jpg.jpg" alt="Project 1">
-            <p>Sumobot</p>
+
+        <!-- SUMO BOT -->
+        <div class="project-box">
+            <img src="sumobot.jpg" alt="Sumo Bot Project">
+
+            <div class="project-layer">
+                <h3>Sumo Bot Competition</h3>
+
+                <p>
+                    Developed a Sumo Bot during our IT Elective 3 course.
+                    The robot competed in a Sumo Bot competition held at
+                    Ayala Malls, demonstrating teamwork, hardware assembly,
+                    sensor integration, and programming skills.
+                </p>
+            </div>
         </div>
-        <div class="project-card">
-            <img src="project2.jpg" alt="Project 2">
-            <p>EatWellFit</p>
+
+        <!-- HCI PROJECT -->
+        <div class="project-box">
+            <img src="ambok.jpg" alt="HCI Project">
+
+            <div class="project-layer">
+                <h3>HCI Mobile Prototype</h3>
+
+                <p>
+                    Designed a fitness and wellness mobile application using
+                    Figma for our Human-Computer Interaction course. The project
+                    focused on user-friendly interfaces, accessibility, and
+                    interactive user experiences.
+                </p>
+            </div>
         </div>
-        <div class="project-card">
-            <img src="project3.png" alt="Project 3">
-            <p>CENROBAGO</p>
+
+        <!-- CAPSTONE -->
+        <div class="project-box">
+            <img src="capstone.png" alt="Capstone Project">
+
+            <div class="project-layer">
+                <h3>CENRO Bago Track Flow</h3>
+
+                <p>
+                    A web-based Freedom of Information request tracking system
+                    developed as our capstone project to streamline request
+                    submissions and allow citizens to monitor the status of
+                    their requests efficiently.
+                </p>
+            </div>
         </div>
+
     </div>
+
+</section> 
+
+        <!-- TRAININGS -->
+        <section class="trainings" id="trainings">
+
+            <h2 class="heading">
+                Trainings & <span>Seminars</span>
+            </h2>
+
+            <div class="training-container">
+
+                <div class="training-box">
+                    Digital Art Workshop
+                </div>
+
+                <div class="training-box">
+                    House of Multimedia
+                </div>
+
+                <div class="training-box">
+                    Research Convention Workshop
+                </div>
+
+                <div class="training-box">
+                    Programmer's Guild Member
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- CONTACT -->
+<section class="contact" id="contact">
+
+    <h2 class="heading">
+        Contact <span>Me</span>
+    </h2>
+
+    <form id="contact-form">
+
+        <div class="input-box">
+            <input type="text"
+                   name="from_name"
+                   placeholder="Full Name"
+                   required>
+
+            <input type="email"
+                   name="from_email"
+                   placeholder="Email Address"
+                   required>
+        </div>
+
+        <textarea name="message"
+                  placeholder="Write your message here..."
+                  required></textarea>
+
+        <input type="submit"
+               value="Send Message"
+               class="btn">
+
+    </form>
+
 </section>
 
-<!-- Skills -->
-<section id="skills" class="skills-section">
-    <h2>Skills</h2>
-    <div class="content">
-        <p>🎬 Video Editing</p>
-        <p>🖥️ Hardware Troubleshooting</p>
-        <p>💻 Web Development</p>
-    </div>
-</section>
+      <!-- FOOTER -->
+<footer class="footer">
 
-<!-- Experience -->
-<section id="experience" class="experience-section">
-    <h2>Experience</h2>
-    <div class="content">
-        <p>📷 Documentation — Jesus King of Glory Fellowship Church (April 10, 2022)</p>
-        <p>💻 Affiliation: Programmers Guild — Member (2022 - Present)</p>
+    <div class="footer-text">
+        <p>© 2026 Luwyze Jamon | All Rights Reserved.</p>
     </div>
-</section>
 
-<!-- Education -->
-<section id="education" class="education-section">
-    <h2>Education</h2>
-    <div class="content">
-        <p>🎓 BS Information Technology, STI West Negros University (2022 - 2026)</p>
-    </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="contact-section">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:jamonbok3@gmail..com">jamonbok3@gmail.com</a></p>
-    <p>Phone: <a href="tel:+1234">+63 098 5038 1278</a></p>
-    
-    <!-- Social Links -->
-    <div class="social-links">
-        <a href="https://www.facebook.com/bok2123" target="_blank">
-            <i class="fab fa-facebook"></i> Facebook
+    <div class="footer-iconTop">
+        <a href="#home">
+            <i class="fa-solid fa-arrow-up"></i>
         </a>
-        <a href="https://www.instagram.com/pampam221144/" target="_blank">
-            <i class="fab fa-instagram"></i> Instagram
-        </a>
     </div>
-</section>
 
-<footer>
-    <p>© 2025 Luwyze Jamon. All Rights Reserved.</p>
 </footer>
+
+<!-- EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+    emailjs.init({
+        publicKey: "n0I9j0aduX4S7TqgB"
+    });
+</script>
+
+<script src="script.js"></script> 
 
 </body>
 </html>
